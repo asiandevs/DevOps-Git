@@ -5,8 +5,9 @@ To work with Git on a Linux-based system, you can use your distribution's packag
 ## CentOS/RHEL:
 
 ```bash
-sudo yum install git
+sudo yum install git -y
 ```
+** Note: with yes response **
 
 After executing the appropriate command for your distribution, Git and its dependencies will be installed. To verify the installation, run:
 
