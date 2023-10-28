@@ -134,6 +134,54 @@ Communication is vital in collaborative development. If you encounter conflicts 
 
 That's the basic process for managing Git conflicts. It's essential to maintain good communication with your team and follow best practices for conflict resolution to ensure a smooth collaborative development process.
 
+----------------------
+## Git Rebase
+----------------------
+
+In Git, `git rebase` is a command used to reorganize the commit history of a branch. It allows you to integrate changes from one branch into another, often resulting in a more linear and organized commit history.
+
+### Step 1: Checkout the Target Branch
+
+First, make sure you are on the branch where you want to apply changes. For example, to update the `master` branch with changes from another branch, use:
+
+```bash
+git checkout master
+```
+
+### Step 2: Start the Rebase
+
+Initiate the rebase process by running the following command, replacing `<source-branch>` with the name of the branch containing the changes you want to apply:
+
+```bash
+git rebase <source-branch>
+```
+
+### Step 3: Resolve Conflicts
+
+If there are conflicts between the changes in the source branch and the target branch, Git will pause the rebase process. You will need to manually resolve the conflicts in the affected files.
+
+Use your text editor to edit the conflicted files, remove conflict markers, and retain the desired changes. After resolving conflicts, use:
+
+```bash
+git add <conflicted-file>
+```
+
+to stage the resolved changes, and then continue the rebase:
+
+```bash
+git rebase --continue
+```
+
+### Step 4: Complete the Rebase
+
+Once the rebase is successful, Git will have applied the changes from the source branch onto the target branch. You can now use:
+
+```bash
+git log
+```
+
+to view the updated commit history. It should appear more linear and organized.
+
 ---------------------
 # Git Stash
 ---------------------
