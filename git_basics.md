@@ -65,6 +65,7 @@ Use the `git status` command to check the current status of the repository.
 ```bash
 git status
 ```
+![image](https://github.com/asiandevs/DevOps-Git/assets/37457408/2539d2a0-1c59-4c81-9f45-4396fa9de5c4)
 
 The status command reports that there is nothing to commit. This means that the repository has all the current state of the working directory. There are no outstanding changes to record.
 
@@ -171,6 +172,14 @@ git restore --staged file4
 
 In Git, the `git reset` command is used to adjust the current branch and move the HEAD to a specific commit. Git reset comes with three primary modes: soft, mixed, and hard, each with distinct behaviors regarding the staging area and working directory.
 ** Note: First get the commitid
+
+![image](https://github.com/asiandevs/DevOps-Git/assets/37457408/cad8d30b-ec94-45d1-85a3-258e9c078070)
+
+Soft Reset: Use when you want to recommit changes with modifications or when you mistakenly committed changes to the wrong branch.
+
+Mixed Reset: Use when you want to unstage changes but keep them in your working directory. It's helpful for reorganizing commits before pushing.
+
+Hard Reset: Use with caution, as it permanently removes changes. It's suitable when you want to completely discard changes or return to a previous state.
 
 ```
 git log --oneline
