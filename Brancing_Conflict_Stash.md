@@ -3,6 +3,8 @@
 --------------------
 Git branches allow you to work on different features or tasks in parallel. Here's a guide on how to create and work with Git branches.
 
+![image](https://github.com/asiandevs/DevOps-Git/assets/37457408/002782ff-a79c-412c-a9e5-31a5feabc5e9)
+
 ## Step 1: Create a New Branch
 
 1. **Open a Terminal or Command Prompt:**
