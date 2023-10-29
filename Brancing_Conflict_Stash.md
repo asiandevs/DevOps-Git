@@ -3,7 +3,8 @@
 --------------------
 Git branches allow you to work on different features or tasks in parallel. Here's a guide on how to create and work with Git branches.
 
-![image](https://github.com/asiandevs/DevOps-Git/assets/37457408/002782ff-a79c-412c-a9e5-31a5feabc5e9)
+![image](https://github.com/asiandevs/DevOps-Git/assets/37457408/91db94c2-140f-4409-8bf8-c1875f17bdd0)
+
 
 ## Step 1: Create a New Branch
 
@@ -139,6 +140,8 @@ That's the basic process for managing Git conflicts. It's essential to maintain 
 ----------------------
 ## Git Rebase
 ----------------------
+![image](https://github.com/asiandevs/DevOps-Git/assets/37457408/ba38950b-3804-4f20-aebc-0feac8204e37)
+
 
 In Git, `git rebase` is a command used to reorganize the commit history of a branch. It allows you to integrate changes from one branch into another, often resulting in a more linear and organized commit history.
 
@@ -189,6 +192,8 @@ to view the updated commit history. It should appear more linear and organized.
 ---------------------
 
 In Git, the `git stash` command is a powerful tool for temporarily saving changes in your working directory without committing them. This is particularly useful when you need to switch branches, pull changes, or perform other Git operations without losing your current work. The changes are stored in a "stash" and can be reapplied later.
+![image](https://github.com/asiandevs/DevOps-Git/assets/37457408/85f0bcf2-83b7-4e7f-b98c-8c0099f0dd88)
+
 
 ## Stash Changes
 
