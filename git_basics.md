@@ -1,6 +1,8 @@
 -------------------------------
 # Git Basics Commands
 -------------------------------
+![image](https://github.com/asiandevs/DevOps-Git/assets/37457408/2cce3b6f-fd82-4566-afff-7af34832063c)
+
 
 ## Local Repository
 
