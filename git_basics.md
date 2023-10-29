@@ -15,6 +15,8 @@ Here's how to work with a local repository:
    ```bash
    git init
    ```
+   ![image](https://github.com/asiandevs/DevOps-Git/assets/37457408/185e86cc-ec8c-47b2-967b-f25692930961)
+
 
 2. **Add Files:**
    You can add files to your local repository by using the `git add` command, which stages changes for the next commit.
@@ -27,10 +29,6 @@ Here's how to work with a local repository:
    ```bash
    git commit -m "Your commit message"
    ```
-
-4. **Create Branches:**
-   You can create and manage branches to work on different features or versions of your project using `git branch` and `git checkout` commands.
-
 # Setup
 ```
 git --help
