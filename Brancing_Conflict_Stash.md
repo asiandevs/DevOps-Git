@@ -193,8 +193,7 @@ to view the updated commit history. It should appear more linear and organized.
 
 In Git, the `git stash` command is a powerful tool for temporarily saving changes in your working directory without committing them. This is particularly useful when you need to switch branches, pull changes, or perform other Git operations without losing your current work. The changes are stored in a "stash" and can be reapplied later.
 
-![image](https://github.com/asiandevs/DevOps-Git/assets/37457408/85f0bcf2-83b7-4e7f-b98c-8c0099f0dd88)
-
+![image](https://github.com/asiandevs/DevOps-Git/assets/37457408/c02980c2-3249-4c72-9cb4-785c2f42bd6d)
 
 ## Stash Changes
 
