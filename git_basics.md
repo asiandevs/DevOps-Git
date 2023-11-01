@@ -15,7 +15,7 @@ Here's how to work with a local repository:
    ```bash
    git init
    ```
-** Figure Git repository structure on a local machine ** Source: https://practicalseries.com/1002-vcs/02-02-concept.html
+** Figure Git repository structure on a local machine ** 
 ![image](https://github.com/asiandevs/DevOps-Git/assets/37457408/f9dd06d2-c6f1-45db-8f4c-0157f05ada89)
 
 1. **Add Files:**
