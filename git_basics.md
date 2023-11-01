@@ -15,16 +15,16 @@ Here's how to work with a local repository:
    ```bash
    git init
    ```
-   ![image](https://github.com/asiandevs/DevOps-Git/assets/37457408/185e86cc-ec8c-47b2-967b-f25692930961)
+** Figure Git repository structure on a local machine ** Source: https://practicalseries.com/1002-vcs/02-02-concept.html
+![image](https://github.com/asiandevs/DevOps-Git/assets/37457408/f9dd06d2-c6f1-45db-8f4c-0157f05ada89)
 
-
-2. **Add Files:**
+1. **Add Files:**
    You can add files to your local repository by using the `git add` command, which stages changes for the next commit.
    ```bash
    git add filename
    ```
 
-3. **Commit Changes:**
+2. **Commit Changes:**
    Commit your changes to the local repository with a descriptive message using the `git commit` command.
    ```bash
    git commit -m "Your commit message"
