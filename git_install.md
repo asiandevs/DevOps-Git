@@ -21,18 +21,7 @@ Setting up Git Bash involves installing Git on your computer and configuring it 
    - Configure the PATH environment: Select "Use Git from Git Bash only" to avoid conflicts with other programs.
    - Click "Install" to complete the installation.
 
-## Step 3: Configure Git Identity
-
-1. Open Git Bash, which is now installed on your computer.
-
-2. Set your Git username and email by running these commands, replacing Your Name and your.email@example.com with your own information:
-
-   ```bash
-   git config --global user.name "Your Name"
-   git config --global user.email "your.email@example.com"
-   ```
-
-## Step 4: Verify Git Installation
+## Step 3: Verify Git Installation
 
 To ensure that Git is installed correctly, run the following command in Git Bash:
 
@@ -41,6 +30,18 @@ git --version
 ```
 
 This command should display the installed Git version.
+
+## Step 4: Configure Git Identity
+
+1. Open Git Bash, click on the Start button, type git, and select Git Bash.
+
+2. Set your Git username and email by running these commands, replacing Your Name and your.email@example.com with your own information:
+
+   ```bash
+   git config --list
+   git config --global user.name "Your Name"
+   git config --global user.email "your.email@example.com"
+   ```
 
 -------------------------------
 # Install Git Client on Linux
