@@ -122,7 +122,7 @@ This is a project-specific configuration file. Config entries in here will overr
 
 Add the following to the .gitconfig file in your $HOME directory.
 
-**.gitconfig**
+**.config**
 ```plaintext
 [alias]
   co = checkout
