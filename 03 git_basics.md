@@ -168,6 +168,61 @@ git commit -m "teste"
 git restore --staged file4
 ```
 
+### Git Tagging
+
+![image](https://github.com/asiandevs/DevOps-Git/assets/37457408/ba0d1f21-1f08-413d-9336-4f406f32f13b)
+
+Git tagging is a feature that allows you to create a named reference (tag) for a specific commit in your Git repository. Tags are often used to mark important points in the commit history, such as releases or significant milestones. They make it easier to reference and manage specific versions of your codebase. Here's how you can use Git tagging:
+
+1. **Create a Tag:**
+   To create a tag in Git, you can use the `git tag` command followed by the tag name and the commit you want to tag. For example:
+   ```bash
+   git tag v1.0.0 1a2b3c4
+   ```
+   In this example, "v1.0.0" is the tag name, and "1a2b3c4" is the commit hash you want to tag.
+
+2. **Annotated Tags:**
+   You can create annotated tags with extra information like a tag message. Annotated tags are created using the `-a` flag:
+   ```bash
+   git tag -a v1.0.0 -m "Release version 1.0.0"
+   ```
+
+3. **List Tags:**
+   To list all the tags in your repository, use the `git tag` command:
+   ```bash
+   git tag
+   ```
+
+4. **Push Tags:**
+   Tags are not automatically pushed to a remote repository when you push changes. To push tags, you can use:
+   ```bash
+   git push origin <tagname>
+   ```
+   For example:
+   ```bash
+   git push origin v1.0.0
+   ```
+
+5. **Delete Tags:**
+   To delete a tag, you can use the `git tag -d` command followed by the tag name:
+   ```bash
+   git tag -d v1.0.0
+   ```
+
+6. **Checkout Tags:**
+   You can switch to a specific tag by using the `git checkout` command and specifying the tag name:
+   ```bash
+   git checkout v1.0.0
+   ```
+
+7. **Lightweight Tags:**
+   Git also supports lightweight tags, which are just pointers to specific commits without the extra information of annotated tags. You can create a lightweight tag without the `-a` flag:
+   ```bash
+   git tag v1.0.0
+   ```
+
+Tags are useful for marking releases and managing your version history. They provide a way to easily reference specific points in your Git history.
+
 # Git Reset Modes
 
 In Git, the `git reset` command is used to adjust the current branch and move the HEAD to a specific commit. Git reset comes with three primary modes: soft, mixed, and hard, each with distinct behaviors regarding the staging area and working directory.
