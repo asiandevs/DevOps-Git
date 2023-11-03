@@ -15,7 +15,7 @@ Git branches allow you to work on different features or tasks in parallel. Here'
    Use the `cd` command to move to your Git repository's directory.
 
    ```bash
-   cd /path/to/your/repo
+   cd </repopath>
    ```
 
 3. **Create a New Branch:**
