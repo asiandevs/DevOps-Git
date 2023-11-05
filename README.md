@@ -4,4 +4,5 @@ Participants will gain the skills needed to effectively use Git for version cont
 
 ** Git repository structure **
 
-![Snag_1a038cd9](https://github.com/asiandevs/DevOps-Git/assets/37457408/9998ef46-cffb-4560-a978-07192040f7ac)
+![image](https://github.com/asiandevs/images/blob/57ea1a1d791c9e96dd097e044bec199e44978f66/gitlocalremoterepo.jpg)
+
