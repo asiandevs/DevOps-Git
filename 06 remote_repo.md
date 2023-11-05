@@ -3,8 +3,7 @@
 ------------------------
 A **remote repository**, also known as a remote, is a separate Git repository that exists on a different server or platform. It's used for collaboration, backup, and sharing code with other contributors. The most common remote repository hosting platforms are GitHub, GitLab, and Bitbucket, but you can also set up your own Git server.
 
-![image](https://github.com/asiandevs/DevOps-Git/assets/37457408/186f5611-3430-4bb0-af5f-b42f8e9bed0e)
-
+![image](https://github.com/asiandevs/images/blob/57ea1a1d791c9e96dd097e044bec199e44978f66/pull-push-remote.jpg)
 
 Here's how to work with a remote repository:
 
