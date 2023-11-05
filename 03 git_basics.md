@@ -168,7 +168,7 @@ git restore --staged file4
 
 ### Git Tagging
 
-![image](https://github.com/asiandevs/images/blob/516b729808efaeccfb5890687e6291c1dfe9b7ad/gittag.png)
+![image](https://github.com/asiandevs/images/blob/a6aa26c0501de0a4741a5c379b304916299f778c/gittag.jpg)
 
 Git tagging is a feature that allows you to create a named reference (tag) for a specific commit in your Git repository. Tags are often used to mark important points in the commit history, such as releases or significant milestones. They make it easier to reference and manage specific versions of your codebase. Here's how you can use Git tagging:
 
