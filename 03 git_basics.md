@@ -1,8 +1,7 @@
 -------------------------------
 # Git Basics Commands
 -------------------------------
-![image](https://github.com/asiandevs/DevOps-Git/assets/37457408/2cce3b6f-fd82-4566-afff-7af34832063c)
-
+![image](https://github.com/asiandevs/images/blob/516b729808efaeccfb5890687e6291c1dfe9b7ad/gitaddandmesg.png)
 
 ## Local Repository
 
@@ -16,7 +15,7 @@ Here's how to work with a local repository:
    git init
    ```
 ** Figure Git repository structure on a local machine ** 
-![image](https://github.com/asiandevs/DevOps-Git/assets/37457408/f9dd06d2-c6f1-45db-8f4c-0157f05ada89)
+![image](https://github.com/asiandevs/images/blob/516b729808efaeccfb5890687e6291c1dfe9b7ad/gituntrackTrack.png)
 
 1. **Add Files:**
    You can add files to your local repository by using the `git add` command, which stages changes for the next commit.
@@ -65,7 +64,6 @@ Use the `git status` command to check the current status of the repository.
 ```bash
 git status
 ```
-![image](https://github.com/asiandevs/DevOps-Git/assets/37457408/2539d2a0-1c59-4c81-9f45-4396fa9de5c4)
 
 The status command reports that there is nothing to commit. This means that the repository has all the current state of the working directory. There are no outstanding changes to record.
 
@@ -170,7 +168,7 @@ git restore --staged file4
 
 ### Git Tagging
 
-![image](https://github.com/asiandevs/DevOps-Git/assets/37457408/ba0d1f21-1f08-413d-9336-4f406f32f13b)
+![image](https://github.com/asiandevs/images/blob/516b729808efaeccfb5890687e6291c1dfe9b7ad/gittag.png)
 
 Git tagging is a feature that allows you to create a named reference (tag) for a specific commit in your Git repository. Tags are often used to mark important points in the commit history, such as releases or significant milestones. They make it easier to reference and manage specific versions of your codebase. Here's how you can use Git tagging:
 
@@ -228,7 +226,7 @@ Tags are useful for marking releases and managing your version history. They pro
 In Git, the `git reset` command is used to adjust the current branch and move the HEAD to a specific commit. Git reset comes with three primary modes: soft, mixed, and hard, each with distinct behaviors regarding the staging area and working directory.
 ** Note: First get the commitid
 
-![image](https://github.com/asiandevs/DevOps-Git/assets/37457408/cad8d30b-ec94-45d1-85a3-258e9c078070)
+![image](https://github.com/asiandevs/images/blob/516b729808efaeccfb5890687e6291c1dfe9b7ad/gitreset.jpg)
 
 Soft Reset: Use when you want to recommit changes with modifications or when you mistakenly committed changes to the wrong branch.
 
