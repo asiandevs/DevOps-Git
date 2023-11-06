@@ -100,4 +100,3 @@ git fetch origin
 This command fetches changes from the remote repository but doesn't merge them. You can inspect the changes and decide whether to merge them into your current branch using `git merge` or `git rebase`.
 
 These Git commands are essential for collaborating with others and keeping your local repository in sync with a remote repository.
-```
