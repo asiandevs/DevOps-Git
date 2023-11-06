@@ -268,4 +268,3 @@ git log --oneline
   - Be extremely cautious when using a hard reset, as it can lead to permanent data loss.
 
 Remember to replace `<commit>` with the actual commit reference (e.g., a commit hash, branch name, or relative commit reference) you want to reset to. Always exercise caution when performing hard resets, as they can result in the loss of data that may not be easily recoverable.
-```
