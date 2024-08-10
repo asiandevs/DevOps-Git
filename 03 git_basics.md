@@ -204,9 +204,11 @@ Git tagging is a feature that allows you to create a named reference (tag) for a
 5. **Delete Tags:**
    To delete a tag, you can use the `git tag -d` command followed by the tag name:
    ```bash
-   git tag -d v1.0.0
+   git tag -d tagName
    ```
-
+   ```
+   git push --delete origin tagName
+   ```
 6. **Checkout Tags:**
    You can switch to a specific tag by using the `git checkout` command and specifying the tag name:
    ```bash
