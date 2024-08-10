@@ -1,6 +1,5 @@
 ## Version Control System - VCS
-Is used to Version Control the Source Code Changes
-It is used to Track the source code changes.
+Is used to Version Control the Source Code Changes and used to track the source code changes.
 
 ### Centralized version control systems (CVCS)
 In centralized version control, there is a single central repository where all the versions of the code are stored. 
