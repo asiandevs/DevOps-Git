@@ -239,7 +239,7 @@ Hard Reset: Use with caution, as it permanently removes changes. It's suitable w
 ```
 git log --oneline
 ```
-## Soft Reset
+### Soft Reset
 
 - Command: `git reset --soft <commit>`
 - Behavior:
@@ -249,7 +249,7 @@ git log --oneline
 - Use case:
   - Uncommit changes while preserving them for further modifications and recommit.
 
-## Mixed Reset (Default)
+### Mixed Reset (Default)
 
 - Command: `git reset --mixed <commit>` (or simply `git reset <commit>`)
 - Behavior:
@@ -259,7 +259,7 @@ git log --oneline
 - Use case:
   - Unstage changes and start over without losing your work.
 
-## Hard Reset
+### Hard Reset
 
 - Command: `git reset --hard <commit>`
 - Behavior:
@@ -270,3 +270,13 @@ git log --oneline
   - Be extremely cautious when using a hard reset, as it can lead to permanent data loss.
 
 Remember to replace `<commit>` with the actual commit reference (e.g., a commit hash, branch name, or relative commit reference) you want to reset to. Always exercise caution when performing hard resets, as they can result in the loss of data that may not be easily recoverable.
+
+![image](https://github.com/user-attachments/assets/7a1eebe0-e60d-4942-bc64-aac8b1f06600)
+
+
+## Git Revert
+
+Git Revert targets an individual commit at an arbitrary point in the Git history and appends a new commit with the resulting inverse content. Git Reset can only work backward from the current commit. For example, if we want to undo old commits which are ten commits behind our current commit with Git Reset, we must remove all the commits history that occurred after the target commit in order to go back to undo that commit. I’m pretty sure that’s not the best solution. Besides, why would you walk backward and forget everything you’ve been working on if you can just find another way back?
+Git Revert is a safe undo. Git Reset is a dangerous method. Git Revert won’t alter the pushed project history, while Git Reset will. This is very dangerous, especially in collaboration projects. Removing commits that other team members have continued developing poses serious problems for collaboration. Also, there is a real risk of losing work with Git Reset.
+Second, git revert is able to target an individual commit at an arbitrary point in the history, 
+whereas git reset can only work backward from the current commit. 
